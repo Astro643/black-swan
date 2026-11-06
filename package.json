@@ -1,0 +1,29 @@
+{
+  "name": "black-swan-bot",
+  "version": "1.0.0",
+  "description": "High-concurrency Discord Stock Market & Financial Crash Economy Bot",
+  "main": "dist/bot.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/bot.js",
+    "dev": "ts-node src/bot.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": ["discord", "bot", "stock-market", "economy", "typescript"],
+  "author": "Astro643",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "pg": "^8.11.3",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/pg": "^8.10.9",
+    "typescript": "^5.3.0",
+    "ts-node": "^10.9.1"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
